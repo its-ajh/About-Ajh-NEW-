@@ -1,0 +1,143 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@400;900&display=swap');
+
+html, body {
+height: 100%;
+width: 100%;
+font-family: 'Unbounded', cursive;
+margin: 0px;
+padding: 0px;
+}
+
+a {
+color: inherit;
+text-decoration: underline;
+}
+
+a:hover {
+color: #beade2;
+text-decoration: underline;
+}
+
+div {
+text-align: center;
+align-items: center;
+margin: 0px;
+padding: 20px;
+}
+
+p {
+font-family: 'Unbounded', cursive;
+font-weight: 400;
+margin: 0px;
+font-size: 1.1em;
+padding-bottom: 10px;
+}
+
+h1 {
+font-family: 'Unbounded', cursive;
+font-weight: 900;
+margin: 0px;
+font-size: 6em;
+padding-bottom: 10px;
+}
+
+hr {
+color: #ffffff;
+border-radius: px;
+height: 2px;
+}
+
+.hrpadding {
+padding-left: 20px;
+padding-right: 20px;
+paddng-bottom: 10px;
+}
+
+body {
+margin: 0;
+padding: 0;
+background: #000000;
+color: #eeeeee;
+}
+
+.light-mode {
+background: #eeeeee;
+color: #000000;
+}
+
+.light-mode > ul li a {
+  position: relative; 
+  display: block;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  line-height: 2em;
+  background: #d4d4d4;
+  border-radius: 50%;
+  font-size: 2.5em;
+  color: #9b30dc;
+  transition: .3s;
+}
+
+.light-mode > a:hover {
+color: #42345c;
+text-decoration: underline;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ul li {
+  list-style: none;
+  margin: 0 15px;
+}
+
+ul li a {
+  position: relative; 
+  display: block;
+  width: 2em;
+  height: 2em;
+  text-align: center;
+  line-height: 2em;
+  background: #121212;
+  border-radius: 50%;
+  font-size: 2.5em;
+  color: #9b30dc;
+  transition: .3s;
+}
+
+ul li a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #a541cb;
+  transition: .3s;
+  transform: scale(.3);
+  z-index: -1;
+}
+
+ul li a:hover::before {
+  transform: scale(1.2);
+  box-shadow: 0 0 15px #a541cb;
+}
+
+ul li a:hover {
+  color: #a541cb;
+  box-shadow: 0 0 5px #a541cb;
+  text-shadow: 0 0 5px #a541cb;
+}
+
+.hidden {
+  opacity:0;
+}
