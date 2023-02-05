@@ -1,0 +1,169 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background: #030303;
+  color: #ffffff;
+  overflow-x: hidden;
+  display: auto;
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  line-height: 1em;
+  font-size: 0.95em;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: #000000;
+  background: #ffffff;
+}
+
+::selection {
+  color: #000000;
+  background: #ffffff;
+}
+
+.dividerthing {
+color: #ababab;
+padding-left: 0.6em;
+padding-right: 0.6em;
+-webkit-user-select: none; /* Safari */
+-ms-user-select: none; /* IE 10 and IE 11 */
+user-select: none; /* Standard syntax */
+}
+
+a {
+color: #82a3ee;
+}
+
+a:hover {
+color: #4273e6;
+}
+
+.differenta {
+color: #ffffff;
+}
+
+.differenta:hover {
+color: #d9d9d9;
+}
+
+h1 {
+font-family: 'Roboto', sans-serif;
+font-weight: 900;
+font-size: 3.5em;
+}
+
+.randomh1 {
+font-family: 'Roboto', sans-serif;
+font-weight: 900;
+font-size: 4em;
+display: inline-block;
+}
+
+p {
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 1.5em;
+line-height: 1.25em;
+}
+
+li {
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 1.5em;
+line-height: 1.25em;
+}
+
+ul {
+list-style-position: inside;
+padding-left: 0;
+}
+
+.pwithoutthep {
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 1.5em;
+line-height: 1.25em;
+}
+
+.light-mode {
+background: #eeeeee;
+color: #000000;
+}
+
+.smallbr {
+padding-bottom: 1em;
+}
+
+hr {
+border-radius: 4px;
+width: 100%;
+color: #ffffff;
+}
+
+i {
+color: #ffffff;
+font-size: 2rem;
+}
+
+#wrapper {
+padding: 20px;
+}
+
+.card {
+  border: solid #ffffff 3px;
+  width: 60%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 1em;
+  margin: 0px;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+.smol {
+  font-size: 0.5em !important;
+  opacity: 0.5em !important;
+}
+
+.floatleft {
+  float: left;
+}
+
+.floatright {
+  float: right;
+}
+
+
+@media only screen and (max-width: 850px) {
+  .card {
+    width: 100%;
+  }
+  .padding {
+    padding: 50px;
+    padding-right: 100px;
+  }
+h1 {
+font-family: 'Roboto', sans-serif;
+font-weight: 900;
+font-size: 2.5em;
+}
+}
+@media only screen and (max-width: 360px) {
+  .card {
+    width: 100%;
+  }
+  .padding {
+    padding: 0px;
+  }
+h1 {
+font-family: 'Roboto', sans-serif;
+font-weight: 900;
+font-size: 1.8em;
+}
+}

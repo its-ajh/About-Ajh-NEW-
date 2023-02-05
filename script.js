@@ -1,8 +1,6 @@
-function lightMode() {
-  var element = document.body;
-  element.classList.toggle("light-mode");
-  element.classList.toggle("light-mode > card");
-  element.classList.toggle("light-mode > i");
-}
+  const container = document.getElementById("container");
+  const text = document.getElementById("text");
 
-AOS.init();
+  container.addEventListener("resize", function() {
+    text.style.fontSize = (container.offsetWidth / 10) + "px";
+  });
