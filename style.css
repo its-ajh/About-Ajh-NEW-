@@ -42,7 +42,7 @@ margin: 0;
 }
 
 nav {
-padding: 1.1em;
+padding: 1.2em;
 top: 0px;
 margin: 0px;
 background: var(--navbar);
@@ -76,6 +76,22 @@ transition: color 0.5s ease;
 nav > a:hover {
 color: var(--hyperlink-hover);
 transform: translateY(0em);
+}
+
+.pfp {
+width: 5em;
+height: auto;
+border-radius: 5em;
+margin-right: 1em;
+transition: transform 0.8s;
+}
+
+.pfp:hover {
+transform: rotate(-360deg);
+}
+
+.pfp:after {
+transform: rotate(0deg);
 }
 
 a {
@@ -173,6 +189,10 @@ transform: rotate(0deg);
 @media (max-width: 700px) {
   .img-cell {
     width: 100%;
+  }
+  nav > a {
+  padding-left: 0.5em;
+  padding-right: 1.5em;
   }
 }
 
