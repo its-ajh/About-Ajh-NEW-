@@ -10,6 +10,7 @@ html, body {
   margin: 0;
   font-family: 'Hind Madurai', sans-serif;
   scroll-behavior: smooth;
+	display: fit;
 }
 
 :root {
