@@ -13,11 +13,12 @@
   <link href="/style.css" rel="stylesheet" type="text/css">
   <link rel="icon" type="image/png" href="https://ajh1.net/images/me.png">
   <link href="https://unpkg.com/movement.css/movement.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 </head>
 
 <body onload="displayTime()">
   <script src="script.js"></script><script src="1.js"></script>
-  <nav data-m="flip-right" data-m-duration="1.5" data-m-delay="0.5">
+  <nav>
     <a href="#">Home</a>
     <a href="#commissions">Commissions</a>
     <a href="#projects">Projects</a>
@@ -25,29 +26,34 @@
   <br>
   <div id="wrapper" data-m="bounce-right" data-m-duration="1" data-m-delay="0.3">
     <div data-m="reveal-right" data-m-duration="2" data-m-delay="0.5">
-      <div style="display: flex; align-items: center;"><img class="pfp" src="/images/me.png"><h1>Hi, I'm Ajh <span class="wave">👋</span></h1></div>
+      <div style="display: flex; align-items: center;"><img class="pfp" src="/images/me.png"><h1>Welcome <span class="wave">👋</span></h1></div>
     </div><br>
-    <h3>About Me <span class="shake">🙃</span></h3>
     <p>I'm AJ. I'm 13, male, and I would say I'm smart but I lack common sense.</p>
 <p>I'm extremely tech-savvy -- I'm a full-stack web developer, and I'm planning to learn game development in the future.</p>
 <p>I'm also not a very social person in general. I like to stick to myself and close friends, but when I have to, I make ends meet. In recent times I've both come out of my shell online but also caved in at school from teasing. Oh well</p>
-<p>My current time is <span id="time"></span>.</p>
-    </p><br>
-    <h3>Hobbies <span class="shake">🎨</span></h3>
-    <p>Coding, making electronics (will eventually get into Raspberry Pi), gaming, producing music, editing videos, playing piano, playing cajón, railfanning, collecting model
-      trains (N, HO, Z scale)</p><br>
-    <h3>Games <span class="shake">🎮</span></h3>
-    <p>Rocket League, Numberlinks / Flow Free, Minecraft, Jstris, BeamNG.drive, bonk.io, Roblox, Quaver</p><br>
-    <h3>Programming <span class="shake">⌨️</span></h3>
-    <p>I started coding on 27 May 2022. HTML was my first language. <a href="https://mc.ajh499.repl.co/">First project</a><br>
-      Languages: HTML, CSS, Python, JavaScript, VBScript<br>
-			I do use PHP but I use ChatGPT to help me for the most part.<br>
-			Planning to learn: Java, Lua, Go, Clojure<br>
-      Frameworks: Django, Node, Bottle<br>
-      Libraries: Bootstrap Icons, Movement<br>
-			Databases: SQLite<br>
-      Related Things: JSON, Markdown, TOML, Git</p><br>
-    <h3>Links <span class="shake">🔗</span></h3>
+<p>🕒 My current time is <span id="time"></span>.</p>
+    </p>
+    <p>🎨 My hobbies are coding, fabricating electronics, gaming, producing music, editing videos, playing piano, playing cajón, railfanning, collecting model
+      trains (N, HO, Z scale)</p>
+    <p>🎮 Games I like to play are Rocket League, Numberlinks / Flow Free, Minecraft, Jstris, BeamNG.drive, bonk.io, Roblox, Quaver</p><br>
+    <h3><span class="shake">⌨️</span> Programming</h3>
+    <p>I started coding on 27 May 2022. HTML was my first language.<br><br>
+			<img class="iconimg" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+			<img class="iconimg" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" />
+			<img class="iconimg" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
+			<img class="iconimg" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" />
+			<img class="iconimg" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />
+			<img class="iconimg" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
+			<br>
+			<img class="iconimg" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+			<img class="iconimg" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" />
+			<img class="iconimg" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" />
+			<br>
+			<img class="iconimg" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg" />
+			<img class="iconimg" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/markdown/markdown-original.svg" />
+			<img class="iconimg" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+</p><br>
+    <h3><span class="shake">🔗</span> Links</h3>
     <p>Replit: <a href="https://replit.com/@Ajh499">Ajh499</a><br>
       YouTube: <a href="https://youtube.com/@ajh1">ajh1</a><br>
       Discord: <a href="https://discord.gg/mMF22K4N9w">ajh#5275</a><br>
@@ -64,9 +70,7 @@
     <div id="commissions">
       Nitro Type: <a href="https://www.nitrotype.com/racer/aidanjhn">aidanjhn</a><br></p>
       <br>
-      <hr>
-      <br>
-<h1>Commissions <span class="shake">💻</span></h1>
+<h3><span class="shake">💻</span> Commissions</h3>
 <p>
 I'll code you a personal/portfolio website completely from the ground up with private Replit hosting for $10 USD.<br>
 I won't follow my own guidelines, you tell me what to do, and I'll code it, to shape the perfect website of your dreams.<br>
@@ -76,10 +80,8 @@ You can also hire me for $8, but there will be credits with my name at the botto
     <div id="projects">
 <small>* If you try to scam me, your website will be deleted</small></p>
       <br>
-      <hr>
-      <br>
-      <h1>Projects <span class="shake">🖼️</span></h1>
-      <h3>Major Projects</h3>
+      <h3><span class="shake">🖼️</span> Projects</h3>
+      <p>Major</p>
       <div class="imagecontainer">
         <div class="img-table">
           <div class="img-cell">
@@ -113,7 +115,7 @@ You can also hire me for $8, but there will be credits with my name at the botto
           </div>
         </div>
       </div>
-<h3>Minor Projects</h3>
+<p>Minor</p>
       <div class="imagecontainer">
         <div class="img-table">
           <div class="img-cell">
@@ -148,7 +150,7 @@ You can also hire me for $8, but there will be credits with my name at the botto
         </div>
       </div>
     </div>
-<h3>Commission Results</h3>
+<p>Commission Results</p>
       <div class="imagecontainer">
         <div class="img-table">
           <div class="img-cell">
