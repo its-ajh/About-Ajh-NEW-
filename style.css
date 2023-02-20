@@ -57,7 +57,7 @@ nav {
   z-index: 1;
   width: 100%;
   font-size: 1em;
-  text-align: center;
+	text-align: center;
 }
 hr {
   border-radius: 1em;
@@ -208,6 +208,10 @@ table {
     font-size: 1em;
     word-wrap: break-word;
   }
+	figure {
+  max-width: 100%;
+	flex-basis: calc(100%);
+	}
 }
 .overlay {
   position: absolute;
@@ -263,4 +267,30 @@ footer {
   60% {
     transform: translate3d(4px, 0, 0);
   }
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 10em;
+  margin: 0 auto;
+	flex-basis: calc(33.33%);
+}
+
+figure img {
+	max-width: 100%;
+}
+
+figcaption {
+  margin-top: 1em;
+  text-align: left;
+  font-size: 1em;
+}
+
+.photos {
+align-items: left;
+justify-content: flex-start;
+display: flex;
+flex-wrap: wrap;
 }
