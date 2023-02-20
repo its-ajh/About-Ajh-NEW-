@@ -70,13 +70,13 @@ div {
   padding: 0px;
   margin: 0px;
 }
-nav > a {
+nav a {
   margin-right: 2em;
   color: inherit;
   text-decoration: none;
   transition: color 0.5s ease;
 }
-nav > a:hover {
+nav a:hover {
   color: var(--hyperlink-hover);
   transform: translateY(0em);
 }
@@ -179,7 +179,7 @@ table {
   height: auto;
   display: inline-block;
 }
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .img-cell {
     width: 100%;
   }
@@ -188,18 +188,6 @@ table {
     display: block;
     position: relative;
     border-radius: 50%;
-  }
-  nav > a {
-    padding-left: 0.5em;
-    padding-right: 1.5em;
-  }
-  nav {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    text-align: left;
-    font-size: 0.8em;
-    position: fixed;
   }
   #wrapper {
     margin-top: 2em;
@@ -211,6 +199,35 @@ table {
 	figure {
   max-width: 100%;
 	flex-basis: calc(100%);
+	}
+	nav {
+	font-size: 0.8em;
+	}
+}
+@media (max-width: 600px) {
+  .img-cell {
+    width: 100%;
+  }
+  .pfp {
+    width: 25%;
+    display: block;
+    position: relative;
+    border-radius: 50%;
+  }
+  #wrapper {
+    margin-top: 0.5em;
+  }
+  body {
+    font-size: 1em;
+    word-wrap: break-word;
+  }
+	figure img {
+  max-width: 100%;
+	flex-basis: calc(100%);
+	display: block;
+	}
+	nav {
+	font-size: 0.5em;
 	}
 }
 .overlay {
