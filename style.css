@@ -179,7 +179,7 @@ table {
   height: auto;
   display: inline-block;
 }
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   .img-cell {
     width: 100%;
   }
@@ -196,9 +196,10 @@ table {
     font-size: 1em;
     word-wrap: break-word;
   }
-	figure {
-  max-width: 100%;
-	flex-basis: calc(100%);
+	figure img {
+  max-width: 50%;
+	height: auto;
+	flex-basis: calc(50%);
 	}
 	nav {
 	font-size: 0.8em;
@@ -222,9 +223,10 @@ table {
     word-wrap: break-word;
   }
 	figure img {
-  max-width: 100%;
+  width: 100%;
 	flex-basis: calc(100%);
 	display: block;
+	height: auto;
 	}
 	nav {
 	font-size: 0.5em;
